@@ -2,20 +2,21 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - assignsa random number to int n everytime
- *it executes, and prints it
+ *main - entry point, returns zero, positive, negative based on a number
+ *
  *Return: Always 0 (Success)
  */
 int main(void)
 {
 int n;
+
 stand(time(0));
 n = rand() - RAND_MAX / 2;
-if (n > 0)
-	printf("%d is positive\n", n);
-else if (n ==0)
+if (n == 0)
 	printf("%d is zero\n", n);
-else if (n < 0)
+else if (n > 0)
+	printf("%d is positive\n", n);
+else 
 	printf("%d is negative\n", n);
 return (0);
 } 
