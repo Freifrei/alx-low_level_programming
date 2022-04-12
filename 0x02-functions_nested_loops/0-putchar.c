@@ -14,9 +14,9 @@ int main(void)
 
 	while (str[i] != '\0')
 	{
-		chr c = str[i];
+		char c = str[i];
 		_putchar(c);
 		i++;
 	}
 	return (0);
-}  
+} 
