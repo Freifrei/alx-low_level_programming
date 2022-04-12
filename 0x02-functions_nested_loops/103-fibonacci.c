@@ -11,7 +11,7 @@ int main(void)
  int i;
  long int onebefore, twobefore, current;
  long int evenfibsum;
- 
+
  onebefore = 1;
  twobefore = 1;
  current = 2;
@@ -28,4 +28,4 @@ if (!(current % 2))
 }
  printf("%ld\n", evenfibsum);
  return (0);
-} 
+}
