@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 
-/**
- * add - adds two numbers togather
- * @i: The first number to be added.
- * @k: The second number to be added.
+/*
+ * add -prints add two numbers
+ * @i: print int i
+ * @k: print int k
  * Return: Always 0.
  */
 
