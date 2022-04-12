@@ -1,10 +1,11 @@
 #include "main.h"
+
 /**
  * main - Entry point
  *
- * Description: print _putchar and a new line
+ * Description: print _putchar and followed by a new line
  *
- * Return: 0
+ * Return: Always 0
  */
 int main(void)
 {
@@ -14,9 +15,8 @@ int main(void)
 	while (str[i] != '\0')
 	{
 		chr c = str[i];
-
 		_putchar(c);
 		i++;
 	}
 	return (0);
-} 
+}  
