@@ -2,10 +2,10 @@
 
 /**
  * main - tests the function that prints if integer is positive or negative
- * Return: 0
+ * Return
  */
 
-void positive_or_negative(int i);
+int main(void)
 {
         int i;
 
@@ -13,4 +13,4 @@ void positive_or_negative(int i);
 	positive_or_negative(i);
 
 	return (0);
-}
+} 
