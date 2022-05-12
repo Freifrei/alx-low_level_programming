@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * main - prints 1 -100
  * for product of 3 print Fizz
