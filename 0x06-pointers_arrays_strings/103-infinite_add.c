@@ -3,12 +3,13 @@
 /**
  * infinite_add - add two numbers.
  *
- *@n1: first number.
- *@n2: second number.
- *@r: result.
- *@size_r: result size.
- *Return: the addition of n1 and n2.
+ * @n1: first number.
+ * @n2: second number.
+ * @r: result.
+ * @size_r: result size.
+ * Return: the addition of n1 and n2.
  */
+
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int add = 0, len1, len2, i, j;
@@ -43,4 +44,4 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		r[j] = add;
 	}
 	return (r);
-} 
+}  
