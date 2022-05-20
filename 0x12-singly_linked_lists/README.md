@@ -1,1 +1,1 @@
-This readme is singly linked lists 
+This readme is singly linked list  
