@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "lists.h"
 
 /** list _len - returns the number of elements in a linked list
@@ -16,4 +15,4 @@ size_t list_len(const list_h *h)
 		h = h->next;
 	}
 	return (n);
-}
+} 
