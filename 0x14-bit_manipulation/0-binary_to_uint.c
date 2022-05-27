@@ -43,7 +43,5 @@ unsigned int binary_to_uint(const char *b)
 		else if (b[len - i - 1] != '0')
 			return (0);
 	}
-
 	return (n);
-
 }
