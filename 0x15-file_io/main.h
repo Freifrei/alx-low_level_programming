@@ -15,4 +15,4 @@ int create_file(const char *filename, char *text_content);
 int _strlen(char *s);
 void close_new(int f_n);
 
-#endif 
+#endif
