@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * print_buffer - print a buffer 10 bytes per line.
+ * print_buffer - Print a buffer 10 bytes per line.
  * @b: Buffer address.
- * @size: Number of characcters to be printed.
+ * @size: Number of characters to be printed.
  */
 void print_buffer(char *b, int size)
 {
-	int j, k, l
+	int j, k, l;
 
 	if (size <= 0)
 		printf("\n");
