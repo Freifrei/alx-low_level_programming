@@ -1,8 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * string_nconcat - Concatenates two strings using at
- * 		    most an inputted number of bytes.
+ * string_nconcat - Concatenates n bytes of a string to another string
  * @s1: The first string.
  * @s2: The second string.
  * @n: The maximum number of bytes of s2 to concatenate to s1.
@@ -35,7 +34,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		concat[len++] = s1[index];
 
 	for (index = 0; s2[index] && index < n; index++)
-         	concat[len++] = s2[index];
+		concat[len++] = s2[index];
 
 	oncat[len] = '\0';
 
