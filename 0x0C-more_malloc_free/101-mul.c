@@ -5,8 +5,8 @@
 
 /**
  * main - Entry point
- * @argc: number of arguments
- * @argv: string with arguments
+ *@argc: number of arguments
+ *@argv: string with arguments
  * Return: Always 0 (Success)
  */
 
