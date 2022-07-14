@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strlen -returns the length of a srting.
- * @s: pointer to a string whose length is to be found.
-
- * Return: length of string
+ * _strlen - returns the length of a string
+ * @s: pointer t a string 
+ *
+ * Return: length of the string
  */
 int _strlen(char *s)
 {
